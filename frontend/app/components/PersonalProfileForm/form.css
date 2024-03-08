@@ -1,0 +1,50 @@
+.content {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.ant-picker {
+  background: rgba(196, 196, 196, 0.1) !important;
+  border: none !important;
+  height: 60px !important;
+  color: white !important;
+  border-radius: 10px !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ubuntu';
+}
+
+input:focus {
+  outline: none;
+}
+
+.profile {
+}
+
+.upload-img {
+  background: rgba(196, 196, 196, 0.1) !important;
+  border: none !important;
+  object-fit: cover !important;
+  background-image: url('../../images/man.png') !important;
+  padding: 12px !important;
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 10px !important;
+}
+
+.irmzzV:hover {
+  color: white;
+}

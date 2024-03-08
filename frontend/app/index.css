@@ -1,0 +1,63 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.ant-picker-large {
+  width: 80%;
+  color: white !important;
+  padding: 6.5px 11px 6.5px;
+}
+
+.custom-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  color: white;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.ant-list-item-meta-content {
+  color: white !important;
+}
+
+.ant-list-item-meta-title {
+  color: white !important;
+}
+
+.list {
+  background: rgba(196, 196, 196, 0.1) !important;
+  padding: 12px !important;
+  border-radius: 10px;
+  transition: 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+input[type='text'] {
+  text-transform: capitalize;
+}
+
+/* .ant-table-cell {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+.ant-table-cell:hover {
+  background-color: white;
+  color: rgb(41, 39, 39);
+} */
